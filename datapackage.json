@@ -4,7 +4,7 @@
     {
       "name": "de-para-siafi-grp-portal",
       "profile": "tabular-data-resource",
-      "path": "data/despesa.csv",
+      "path": "data/de-para-despesa.csv",
       "format": "csv",
       "encoding": "utf-8-sig",
       "dialect": {
@@ -60,7 +60,7 @@
     {
       "name": "de-para-siafi-grp-portal",
       "profile": "tabular-data-resource",
-      "path": "data/restos-a-pagar.csv",
+      "path": "data/de-para-restos-a-pagar.csv",
       "format": "csv",
       "encoding": "utf-8-sig",
       "dialect": {
@@ -115,7 +115,7 @@
     {
       "name": "de-para-siafi-grp-portal",
       "profile": "tabular-data-resource",
-      "path": "data/diarias.csv",
+      "path": "data/de-para-diarias.csv",
       "format": "csv",
       "encoding": "utf-8-sig",
       "dialect": {
