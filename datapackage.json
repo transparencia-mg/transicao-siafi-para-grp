@@ -1,0 +1,61 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "de-para-siafi-grp-portal",
+      "profile": "tabular-data-resource",
+      "path": "data/de-para-siafi-grp-portal.csv",
+      "format": "csv",
+      "encoding": "utf-8-sig",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "CONSULTA-PORTAL",
+            "type": "string"
+          },
+          {
+            "name": "OBSERVAÇÃO",
+            "type": "any"
+          },
+          {
+            "name": "CAMPO-SIAFI",
+            "type": "string"
+          },
+          {
+            "name": "DIMENSAO-SIAFI",
+            "type": "string"
+          },
+          {
+            "name": "TOOLTIP-SIAFI",
+            "type": "string"
+          },
+          {
+            "name": "CAMPO-GRP",
+            "type": "string"
+          },
+          {
+            "name": "DIMENSAO-GRP",
+            "type": "string"
+          },
+          {
+            "name": "TOOLTIP-GRP",
+            "type": "string"
+          },
+          {
+            "name": "CAMPO-NOVO-GRP",
+            "type": "any"
+          },
+          {
+            "name": "DÚVIDA",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "transicao-siafi-para-grp",
+  "title": "Mapeamento de-para SIAFI vs GRP"
+}
