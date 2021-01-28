@@ -1,172 +1,153 @@
 {
   "profile": "tabular-data-package",
   "resources": [
-    {
-      "name": "de-para-siafi-grp-portal",
+ {
+      "name": "alteracao-orcamentaria",
+      "path": "data/de-para-alteracao-orcamentaria.csv",
       "profile": "tabular-data-resource",
-      "path": "data/de-para-despesa.csv",
-      "format": "csv",
+      "schema": "schema.json",
+      "title": "Alteração Orçamentária",
+      "mediatype": "text/csv",
       "encoding": "utf-8-sig",
-      "dialect": {
-        "delimiter": ";"
-      },
-      "schema": {
-        "fields": [
-          {
-            "name": "CONSULTA-PORTAL",
-            "type": "string"
-          },
-          {
-            "name": "OBSERVAÇÃO",
-            "type": "any"
-          },
-          {
-            "name": "CAMPO-SIAFI",
-            "type": "string"
-          },
-          {
-            "name": "DIMENSAO-SIAFI",
-            "type": "string"
-          },
-          {
-            "name": "TOOLTIP-SIAFI",
-            "type": "string"
-          },
-          {
-            "name": "CAMPO-GRP",
-            "type": "string"
-          },
-          {
-            "name": "DIMENSAO-GRP",
-            "type": "string"
-          },
-          {
-            "name": "TOOLTIP-GRP",
-            "type": "string"
-          },
-          {
-            "name": "CAMPO-NOVO-GRP",
-            "type": "any"
-          },
-          {
-            "name": "DÚVIDA",
-            "type": "string"
-          }
-        ]
-      }
-    }
-    ,
-
-    {
-      "name": "de-para-siafi-grp-portal",
-      "profile": "tabular-data-resource",
-      "path": "data/de-para-restos-a-pagar.csv",
-      "format": "csv",
-      "encoding": "utf-8-sig",
-      "dialect": {
-        "delimiter": ";"
-      },
-      "schema": {
-        "fields": [
-          {
-            "name": "CONSULTA-PORTAL",
-            "type": "string"
-          },
-          {
-            "name": "OBSERVAÇÃO",
-            "type": "any"
-          },
-          {
-            "name": "CAMPO-SIAFI",
-            "type": "string"
-          },
-          {
-            "name": "DIMENSAO-SIAFI",
-            "type": "string"
-          },
-          {
-            "name": "TOOLTIP-SIAFI",
-            "type": "string"
-          },
-          {
-            "name": "CAMPO-GRP",
-            "type": "string"
-          },
-          {
-            "name": "DIMENSAO-GRP",
-            "type": "string"
-          },
-          {
-            "name": "TOOLTIP-GRP",
-            "type": "string"
-          },
-          {
-            "name": "CAMPO-NOVO-GRP",
-            "type": "any"
-          },
-          {
-            "name": "DÚVIDA",
-            "type": "string"
-          }
-        ]
-      }
+      "description": "Informações sobre créditos adicionais suplementados às Leis Orçamentárias Anuais do Estado",
+      "format": "csv"
     },
-
     {
-      "name": "de-para-siafi-grp-portal",
+      "name": "compras-contratos",
+      "path": "data/de-para-compras-contratos.csv",
       "profile": "tabular-data-resource",
-      "path": "data/de-para-diarias.csv",
-      "format": "csv",
+      "schema": "schema.json",
+      "title": "Compras e Contratos",
+      "mediatype": "text/csv",
       "encoding": "utf-8-sig",
-      "dialect": {
-        "delimiter": ";"
-      },
-      "schema": {
-        "fields": [
-          {
-            "name": "CONSULTA-PORTAL",
-            "type": "string"
-          },
-          {
-            "name": "OBSERVAÇÃO",
-            "type": "any"
-          },
-          {
-            "name": "CAMPO-SIAFI",
-            "type": "string"
-          },
-          {
-            "name": "DIMENSAO-SIAFI",
-            "type": "string"
-          },
-          {
-            "name": "TOOLTIP-SIAFI",
-            "type": "string"
-          },
-          {
-            "name": "CAMPO-GRP",
-            "type": "string"
-          },
-          {
-            "name": "DIMENSAO-GRP",
-            "type": "string"
-          },
-          {
-            "name": "TOOLTIP-GRP",
-            "type": "string"
-          },
-          {
-            "name": "CAMPO-NOVO-GRP",
-            "type": "any"
-          },
-          {
-            "name": "DÚVIDA",
-            "type": "string"
-          }
-        ]
-      }
+      "description": "Informações sobre os processos de compras de materiais e serviços realizados pelo Estado e contratos firmados entre o Estadoe e terceiros",
+      "format": "csv"
+    },
+    {
+      "name": "convenio-entrada-recursos",
+      "path": "data/de-para-convenio-entrada-recurso.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Convênio de Entrada de recursos",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações de convênios de entrada de recursos celebrados pelo Estado com o governo federal, municípios, organizações da sociedade civil para execução de politíca pública estadual",
+      "format": "csv"
+    },
+    {
+      "name": "convenio-parceria-saida-recursos",
+      "path": "data/de-para-convenio-parceria-saida-recursos.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Convênio/Parceria -Saída de Recursos",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações de convênios/parceria de saída de recursos celebrados pelo Estado com municípios e organizações da sociedade civil",
+      "format": "csv"
+    },{
+      "name": "credito-orcamentario",
+      "path": "data/de-para-credito-orcamentario.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Crédito Orçamentário",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre as despesas estaduais orçadas nas Leis Orçamentárias Anuais",
+      "format": "csv"
+    },
+    {
+      "name": "despesa",
+      "path": "data/de-para-despesa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Despesa",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre despesas empenhadas, liquidadas e pagas pelo Estado ano a ano",
+      "format": "csv"
+    },
+    {
+      "name": "restos-a-pagar",
+      "path": "data/de-para-restos-a-pagar.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Restos a Pagar",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre as despesas que se iniciaram num ano (emepenho e liquidação) e foram concluídas (pagas) em anos subsequentes",
+      "format": "csv"
+    },
+    {
+      "name": "mapa-investimento",
+      "path": "data/de-para-mapa-investimento.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Mapa de Investimento",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Mapa de investimento referente aos gastos com compras de equipamentos, realização de obras, material permanente e outras despesas com investimentos",
+      "format": "csv"
+    },
+    {
+      "name": "diarias",
+      "path": "data/de-para-diarias.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Diarias",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre as despesas com diárias de viagens empenhadas, liquidadas e pagas aos servidores públicos pelo Estado",
+      "format": "csv"
+    },
+    {
+      "name": "despesa-pessoal",
+      "path": "data/de-para-despesa-pessoal.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Despesa com Pessoal",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre as despesas com pessoal do Estado - Ativos, Inativos, Pensionistas e Contratados",
+      "format": "csv"
+    },
+    {
+      "name": "execucao-divida",
+      "path": "data/de-para-execucao-divida.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Execução da Dívida",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre pagamento das dívidas externas e internas do Estado",
+      "format": "csv"
+    },
+    {
+      "name": "viagens",
+      "path": "data/de-para-viagens.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Viagens",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre as viagens realizadas pelos servidores públicos incluindo motivos, destinos, diárias e passagens",
+      "format": "csv"
+    },
+    {
+      "name": "receita",
+      "path": "data/de-para-receita.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Receita",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre as receitas previstas e efetivamente arrecadadas pelo Estado, como tributos, operações de crédito, alienação de bens e outras fontes",
+      "format": "csv"
     }
-  ],
+       ],
   "name": "transicao-siafi-para-grp",
-  "title": "Mapeamento de-para SIAFI vs GRP"
+  "title": "Transição SIAFI para GRP",
+  "description": "",
+  "private": "false",
+  "state": "active",
+  "version": "0.1.0"
 }
