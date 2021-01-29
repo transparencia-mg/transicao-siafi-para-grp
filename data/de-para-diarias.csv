@@ -1,4 +1,4 @@
-﻿CONSULTA-PORTAL;CAMPO-DERIVADO;CAMPO-SIAFI;DIMENSAO-SIAFI;TOOLTIP-SIAFI;CAMPO-GRP;DIMENSAO-GRP;TOOLTIP-GRP;NOVO-CAMPO-GRP;DUVIDA;OBSERVACAO
+﻿CONSULTA_PORTAL;CAMPO_DERIVADO;CAMPO_SIAFI;DIMENSAO_SIAFI;TOOLTIP_SIAFI;CAMPO_GRP;DIMENSAO_GRP;TOOLTIP_GRP;NOVO_CAMPO_GRP;DUVIDA;OBSERVACAO
 diárias;;Ano de exercício;Período Contábil ;Ano de exercício do orçamento fiscal (formato AAAA);Ano de exercício;Exercício;Ano de exercício do processo GRP (Formato AAAA);;;
 diárias;;Categoria Econômica Despesa - Código;Execução Orçamentária da Despesa >> Despesa Realizada >> Natureza da Despesa Realizada;"Código da categoria econômica da despesa: 3 Despesas correntes; 4 - Despesas de Capital";CategoriaEconômica - Código;Natureza de Despesa;Código numérico identificador do efeito dos gastos sobre a economia (1 dígito);;;
 diárias;;Categoria Econômica Despesa -Descrição;Execução Orçamentária da Despesa >> Despesa Realizada >> Natureza da Despesa Realizada;Descrição da categoria econômica da despesa: Despesas correntes e Despesas de Capital;CategoriaEconômica - Descrição;Natureza de Despesa;Denominação do efeito dos gastos sobre a economia: Despesas Correntes e Despesas de Capital;;;
@@ -51,9 +51,3 @@ diárias;;NÃO LOCALIZADO;;;Justificativa Empenho ;Execução-Orçamentária-da-
 diárias;;NÃO LOCALIZADO;;;;;;;SIM;Campo Portal: Nº Nota Fiscal - Formulário de liquidação
 diárias;;CAMPO NOVO GRP;;;Número OLP;Execução-Orçamentária-da-Despesa >> Despesa Liquidada;"	Número único do documento de obrigação liquidada a pagar";SIM;;
 diárias;;CAMPO NOVO GRP;;;Número NotaFiscal OLP;Execução-Orçamentária-da-Despesa >> Despesa Liquidada;Número de série da nota fiscal da obrigação liquidada a pagar;SIM;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;

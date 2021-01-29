@@ -1,4 +1,4 @@
-﻿CONSULTA-PORTAL;CAMPO-DERIVADO;CAMPO-SIAFI;DIMENSAO-SIAFI;TOOLTIP-SIAFI;CAMPO-GRP;DIMENSAO-GRP;TOOLTIP-GRP;NOVO-CAMPO-GRP;DUVIDA;OBSERVACAO
+﻿CONSULTA_PORTAL;CAMPO_DERIVADO;CAMPO_SIAFI;DIMENSAO_SIAFI;TOOLTIP_SIAFI;CAMPO_GRP;DIMENSAO_GRP;TOOLTIP_GRP;NOVO_CAMPO_GRP;DUVIDA;OBSERVACAO
 restos a pagar;;Valor Inscrito não Processado - Valor Cancelado não Processado + Valor Restabelecido não Processado;Execução de Restos a pagar >> Restos a pagar ;;;;;;;Campo Portal: Valor Inscrito Não processado
 restos a pagar;;Valor Inscrito Processado - Valor Cancelado Processado + Valor Restabelecido Processado;Execução de Restos a pagar >> Restos a pagar ;;;;;;;Campo Portal: Valor Inscrito processado
 restos a pagar;;Valor Pago processado + Valor pago não processado;Execução de Restos a pagar >> Restos a pagar ;;;;;;;Campo Portal: Valor pago e Valor Pago no ano
@@ -9,7 +9,6 @@ restos a pagar;;Número Docto Pagamento;Execução de Restos a pagar >> Restos a
 restos a pagar;;Situação da Ordem de Pagamento - Descrição;Execução de Restos a pagar >> Restos a pagar >> Dados da Ordem de Pagamento - Restos a Pagar;Situação da ordem de pagamento: Pendente para banco, cancelada, transmitida ao banco - pendente confirmação, acatada pelo banco/quitada, anulada parcialmente sem cancelamento de IRRF;;;;;;
 restos a pagar;;Data Registro Doc RestoPagar;Execução de Restos a pagar >> Restos a pagar >> Dados de Restos a Pagar;Data completa do registro do documeto de inscrição em restos a pagar (DD/MM/AAAA);;;;;;
 restos a pagar;;Data Registro Doc Empenho;Execução de Restos a pagar >> Restos a pagar >> Dados do Empenho- Restos a Pagar;Data completa do registro do documeto de empenho (DD/MM/AAAA);;;;;;
-restos a pagar;;Número Empenho;Execução de Restos a pagar >> Restos a pagar >> Dados do Empenho- Restos a Pagar;Número do documeto de empenho;;;;;;
 restos a pagar;;Número Empenho;Execução de Restos a pagar >> Restos a pagar >> Dados do Empenho- Restos a Pagar;Número do documeto de empenho;;;;;;
 restos a pagar;;Fonte de Recurso - Código;Execução de Restos a pagar >> Restos a pagar >> GMIFP - Restos a Pagar;Código referente à fonte dos recursos financeiros, de acordo SIAFI-MG (2 dígito);;;;;;
 restos a pagar;;Fonte de Recurso - Descrição;Execução de Restos a pagar >> Restos a pagar >> GMIFP - Restos a Pagar;Descrição da fonte dos recursos financeiros;;;;;;
@@ -34,7 +33,6 @@ restos a pagar;;Subfunção - Descrição;Execução de Restos a pagar >> Restos
 restos a pagar;;Ano de exercício;Período Contábil ;Ano de exercício do orçamento fiscal (formato AAAA);;;;;;
 restos a pagar;;Unidade Executora - código;Unidade Executora;Código (7 dígitos) composto do órgão executor ( 4 digitos) e número sequencial da unidade executora ( 3 dígitos);;;;;;
 restos a pagar;;Unidade Executora - nome;Unidade Executora;Nome resumindo ou sigla da unidade executora;;;;;;
-restos a pagar;;Unidade Orçamentária - código;Unidade Orçamentária;Código representativo da unidade orçamentária (4 dígitos);;;;;;
 restos a pagar;;Unidade Orçamentária - código;Unidade Orçamentária;Código representativo da unidade orçamentária (4 dígitos);;;;;;
 restos a pagar;;Unidade Orçamentária - nome;Unidade Orçamentária;Nome completo da unidade orçamentária;;;;;;
 restos a pagar;;NÃO LOCALIZADO;;;;;;;;Campo Portal: Código de Documento - Formulário de liquidação

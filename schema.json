@@ -1,14 +1,14 @@
 {
   "fields": [
         {
-        "name": "CONSULTA-PORTAL", 
+        "name": "CONSULTA_PORTAL", 
         "type": "string",
         "format": "default",
         "title": "Consulta Portal",
         "description": "Nome da consulta no Portal da Transparência dentro de um grupo.Exemplo: Grupo: Despesas - Consultas: Despesa, Restos a Pagar e Mapa de Investimento"
     },
     {
-            "name": "CAMPO-DERIVADO",
+            "name": "CAMPO_DERIVADO",
             "type": "string",
             "format": "default",
             "title": "Campo derivado",
@@ -21,49 +21,49 @@
      }
     },
     {
-            "name": "CAMPO-SIAFI",
+            "name": "CAMPO_SIAFI",
             "type": "string",
             "format": "default",
             "title": "Campo SIAFI",
             "description": "Nome do campo que identifica a informação armazém SIAFI"
     },
     {
-      "name": "DIMENSAO-SIAFI",
+      "name": "DIMENSAO_SIAFI",
       "type": "string",
       "format": "default",
        "title": "Dimensão SIAFI",
        "description": "Local/dimensão do campo no armazém SIAFI"
     },
     {
-     "name": "TOOLTIP-SIAFI",
+     "name": "TOOLTIP_SIAFI",
       "type": "string",
       "format": "default",
       "title": "Tooltip SIAFI",
       "description": "Descrição do Tooltip no armazém SIAFI"
     },
     {
-            "name": "CAMPO-GRP",
+            "name": "CAMPO_GRP",
             "type": "string",
             "format": "default",
             "title": "Campo GRP",
             "description": "Nome do campo que identifica a informação armazém GRP"
     },
     {
-      "name": "DIMENSAO-GRP",
+      "name": "DIMENSAO_GRP",
       "type": "string",
       "format": "default",
        "title": "Dimensão GRP",
        "description": "Local/dimensão do campo no armazém GRP"
     },
     {
-     "name": "TOOLTIP-GRP",
+     "name": "TOOLTIP_GRP",
       "type": "string",
       "format": "default",
       "title": "Tooltip SIAFI",
       "description": "Descrição do Tooltip no armazém GRP" 
       },
       {
-     "name": "NOVO-CAMPO-GRP",
+     "name": "NOVO_CAMPO_GRP",
       "type": "string",
       "format": "default",
       "title": "Novo campo GRP",
