@@ -8,24 +8,18 @@
         "description": "Nome da consulta no Portal da Transparência dentro de um grupo.Exemplo: Grupo: Despesas - Consultas: Despesa, Restos a Pagar e Mapa de Investimento"
     },
     {
-            "name": "CAMPO_DERIVADO",
-            "type": "string",
-            "format": "default",
-            "title": "Campo derivado",
-            "description": "Informação se o campo é composto por mais uma variável",
-            "constraints": {
-            	"enum":[
-            	  "sim",
-            	  "não"
-        ]
-     }
+        "name": "CAMPO_DERIVADO",
+        "type": "string",
+        "format": "default",
+        "title": "Campo derivado",
+        "description": "Informação se o campo é composto por mais uma variável"
     },
     {
-            "name": "CAMPO_SIAFI",
-            "type": "string",
-            "format": "default",
-            "title": "Campo SIAFI",
-            "description": "Nome do campo que identifica a informação armazém SIAFI"
+        "name": "CAMPO_SIAFI",
+        "type": "string",
+        "format": "default",
+        "title": "Campo SIAFI",
+        "description": "Nome do campo que identifica a informação armazém SIAFI"
     },
     {
       "name": "DIMENSAO_SIAFI",
