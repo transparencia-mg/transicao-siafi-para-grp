@@ -8,6 +8,20 @@
         "description": "Nome da consulta no Portal da Transparência dentro de um grupo.Exemplo: Grupo: Despesas - Consultas: Despesa, Restos a Pagar e Mapa de Investimento"
     },
     {
+        "name": "TIPO_CONSULTA", 
+        "type": "string",
+        "format": "default",
+        "title": "Tipo da Consulta",
+        "description": "Tipo da Consulta no Portal da Transparência. Exemplo: Pesquisa Básica; Pesquisa Avançada; Formulário de Detalhamento"
+    },
+    {
+        "name": "CAMPO_PORTAL",
+        "type": "string",
+        "format": "default",
+        "title": "Campo do Portal",
+        "description": "Nome do campo no Portal da Transparência"
+    },
+    {
         "name": "CAMPO_DERIVADO",
         "type": "string",
         "format": "default",
@@ -36,11 +50,11 @@
       "description": "Descrição do Tooltip no armazém SIAFI"
     },
     {
-            "name": "CAMPO_GRP",
-            "type": "string",
-            "format": "default",
-            "title": "Campo GRP",
-            "description": "Nome do campo que identifica a informação armazém GRP"
+      "name": "CAMPO_GRP",
+      "type": "string",
+      "format": "default",
+      "title": "Campo GRP",
+      "description": "Nome do campo que identifica a informação armazém GRP"
     },
     {
       "name": "DIMENSAO_GRP",
