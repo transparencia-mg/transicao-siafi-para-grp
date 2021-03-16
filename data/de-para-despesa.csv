@@ -1,4 +1,4 @@
-ï»¿TA_PORTAL;TIPO_CONSULTA;CAMPO_PORTAL;CAMPO_DERIVADO;CAMPO_SIAFI;DIMENSAO_SIAFI;TOOLTIP_SIAFI;CAMPO_GRP;DIMENSAO_GRP;TOOLTIP_GRP;NOVO_CAMPO_GRP;DUVIDA;OBSERVACAO
+TA_PORTAL;TIPO_CONSULTA;CAMPO_PORTAL;CAMPO_DERIVADO;CAMPO_SIAFI;DIMENSAO_SIAFI;TOOLTIP_SIAFI;CAMPO_GRP;DIMENSAO_GRP;TOOLTIP_GRP;NOVO_CAMPO_GRP;DUVIDA;OBSERVACAO
 despesa;Pesquisa B?ica;Ano;;Ano de exerc?io;Per?do Cont?il ;Ano de exerc?io do or?mento fiscal (formato AAAA);Ano de exerc?io;Exerc?io;Ano de exerc?io do processo GRP (Formato AAAA);;;
 despesa;Formul?io de Detalhamento/Pesquisa Avan?da;Categoria Econ?ica (c?);;Categoria Econ?ica Despesa - C?igo;Execu?o Or?ment?ia da Despesa >> Despesa Realizada >> Natureza da Despesa Realizada;"C?igo da categoria econ?ica da despesa: 3 Despesas correntes; 4 - Despesas de Capital";CategoriaEcon?ica - C?igo;Natureza de Despesa;C?igo num?ico identificador do efeito dos gastos sobre a economia (1 d?ito);;;
 despesa;Pesquisa B?ica/Formul?io de Detalhamento/Pesquisa Avan?da;Categoria Econ?ica (nome);;Categoria Econ?ica Despesa -Descri?o;Execu?o Or?ment?ia da Despesa >> Despesa Realizada >> Natureza da Despesa Realizada;Descri?o da categoria econ?ica da despesa: Despesas correntes e Despesas de Capital;CategoriaEcon?ica - Descri?o;Natureza de Despesa;Denomina?o do efeito dos gastos sobre a economia: Despesas Correntes e Despesas de Capital;;;
@@ -52,6 +52,9 @@ despesa;;;;N? LOCALIZADO;;;Justificativa Empenho ;Execu?o-Or?ment?ia-da-Despesa 
 despesa;;;;N? LOCALIZADO;;;;;;;SIM;Campo Portal: N? Nota Fiscal - Formul?io de liquida?o
 despesa;;;;CAMPO NOVO GRP;;;N?mero OLP;Execu?o-Or?ment?ia-da-Despesa >> Despesa Liquidada;"	N?mero ?nico do documento de obriga?o liquidada a pagar";SIM;;
 despesa;;;;CAMPO NOVO GRP;;;N?mero NotaFiscal OLP;Execu?o-Or?ment?ia-da-Despesa >> Despesa Liquidada;N?mero de s?ie da nota fiscal da obriga?o liquidada a pagar;SIM;;
-despesa;Formul?io de Detalhamento - pesquisa b?ica;Descri?o Hist?ico do Empenho;;;;;;;;;;
+despesa;Formul?io de Detalhamento - pesquisa b?ica;Descri?o Hist?ico do Empenho;;;;;Justificativa Empenho ;Execu?o-Or?ment?ia-da-Despesa >> Despesa Empenhada;;;;
 despesa;Pesquisa b?ica;?g? (c?.);;;;;;;;;;
 despesa;Pesquisa b?ica;?g? (nome);;;;;;;;;;
+despesa;;;;;;;Justificativa OP;Execução financeira >> Pagamento Bancário - Escritural;;;;
+despesa;;;;;;;Justificativa Transferência;Execução financeira >> Pagamento Bancário - Escritural;;;;
+despesa;;;;;;;Finalidade pagamento - descrição;Execução financeira >> Pagamento Bancário - Escritural;;;;
