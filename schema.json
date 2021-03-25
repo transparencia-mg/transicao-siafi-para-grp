@@ -22,6 +22,13 @@
         "description": "Nome do campo no Portal da Transparência"
     },
     {
+        "name": "TIPO_CAMPO_PORTAL",
+        "type": "string",
+        "format": "default",
+        "title": "Tipo de Campo do Portal",
+        "description": "Tipo do campo no Portal da Transparência"
+    },
+    {
         "name": "CAMPO_DERIVADO",
         "type": "string",
         "format": "default",
@@ -50,11 +57,11 @@
       "description": "Descrição do Tooltip no armazém SIAFI"
     },
     {
-            "name": "CAMPO_GRP",
-            "type": "string",
-            "format": "default",
-            "title": "Campo GRP",
-            "description": "Nome do campo que identifica a informação armazém GRP"
+      "name": "CAMPO_GRP",
+      "type": "string",
+      "format": "default",
+      "title": "Campo GRP",
+      "description": "Nome do campo que identifica a informação armazém GRP"
     },
     {
       "name": "DIMENSAO_GRP",
@@ -90,6 +97,20 @@
       "format": "default",
       "title": "Observação",
       "description": "" 
+      },
+      {
+     "name": "DIGITOS_SIAFI",
+      "type": "string",
+      "format": "default",
+      "title": "Digitos SIAFI",
+      "description": "Quantidade de digitos do campo código no armazém SIAFI" 
+      },
+{
+     "name": "DIGITOS_GRP",
+      "type": "string",
+      "format": "default",
+      "title": "Digitos GRP",
+      "description": "Quantidade de digitos do campo código no armazém GRP"
       }
   ],
   "missingValues": [
