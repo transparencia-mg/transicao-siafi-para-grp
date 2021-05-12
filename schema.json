@@ -90,8 +90,8 @@
       "format": "default",
       "title": "Tooltip SIAFI",
       "description": "Descrição do Tooltip no armazém GRP" 
-      },
-      {
+    },
+    {
      "name": "NOVO_CAMPO_GRP",
       "type": "string",
       "format": "default",
@@ -111,7 +111,7 @@
       "format": "default",
       "title": "Digitos GRP",
       "description": "Quantidade de digitos do campo código no armazém GRP"
-      }
+      },
      {
      "name": "OBSERVACAO",
       "type": "string",
