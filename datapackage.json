@@ -24,7 +24,7 @@
       "format": "csv"
     },
     {
-      "name": "de-para-convenio-entrada-recursos",
+      "name": "de-para-convenio-entrada-recurso",
       "path": "data/de-para-convenio-entrada-recurso.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
@@ -66,6 +66,17 @@
       "description": "Informações sobre despesas empenhadas, liquidadas e pagas pelo Estado ano a ano",
       "format": "csv"
     },
+   {
+      "name": "de-para-despesa-pessoal",
+      "path": "data/de-para-despesa-pessoal.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "De-Para Despesa com Pessoal",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre as despesas com pessoal do Estado - Ativos, Inativos, Pensionistas e Contratados",
+      "format": "csv"
+    },
     {
       "name": "de-para-restos-a-pagar",
       "path": "data/de-para-restos-a-pagar.csv",
@@ -75,17 +86,6 @@
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
       "description": "Informações sobre as despesas que se iniciaram num ano (emepenho e liquidação) e foram concluídas (pagas) em anos subsequentes",
-      "format": "csv"
-    },
-    {
-      "name": "de-para-mapa-investimento",
-      "path": "data/de-para-mapa-investimento.csv",
-      "profile": "tabular-data-resource",
-      "schema": "schema.json",
-      "title": "De-Para Mapa de Investimento",
-      "mediatype": "text/csv",
-      "encoding": "utf-8-sig",
-      "description": "Mapa de investimento referente aos gastos com compras de equipamentos, realização de obras, material permanente e outras despesas com investimentos",
       "format": "csv"
     },
     {
@@ -99,17 +99,7 @@
       "description": "Informações sobre as despesas com diárias de viagens empenhadas, liquidadas e pagas aos servidores públicos pelo Estado",
       "format": "csv"
     },
-    {
-      "name": "de-para-despesa-pessoal",
-      "path": "data/de-para-despesa-pessoal.csv",
-      "profile": "tabular-data-resource",
-      "schema": "schema.json",
-      "title": "De-Para Despesa com Pessoal",
-      "mediatype": "text/csv",
-      "encoding": "utf-8-sig",
-      "description": "Informações sobre as despesas com pessoal do Estado - Ativos, Inativos, Pensionistas e Contratados",
-      "format": "csv"
-    },
+    
     {
       "name": "de-para-execucao-divida",
       "path": "data/de-para-execucao-divida.csv",
