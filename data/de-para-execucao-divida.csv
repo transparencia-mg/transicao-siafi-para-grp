@@ -1,2 +1,13 @@
-﻿CONSULTA_PORTAL;TIPO_CONSULTA;CAMPO_PORTAL;TIPO_CAMPO_PORTAL;CAMPO_DERIVADO;CAMPO_SIAFI;DIMENSAO_SIAFI;TOOLTIP_SIAFI;CAMPO_GRP;DIMENSAO_GRP;TOOLTIP_GRP;NOVO_CAMPO_GRP;DUVIDA;OBSERVACAO;DIGITOS_SIAFI;DIGITOS_GRP
-Execução da Dívida;;;;;;;;;;;;;;;
+﻿CONSULTA_PORTAL;TIPO_CONSULTA;TIPO_CAMPO_PORTAL;CAMPO_PORTAL;TABELA_CAMPO_DER;CAMPO_DER_EXIBIDO_PORTAL;CAMPO_DERIVADO;CAMPO_SIAFI;DIMENSAO_SIAFI;TOOLTIP_SIAFI;CAMPO_GRP;DIMENSAO_GRP;TOOLTIP_GRP;NOVO_CAMPO_GRP;DIGITOS_SIAFI;DIGITOS_GRP;OBSERVACAO
+Execução da Dívida;Pesquisa básica;data;Ano;FT_DIVIDA_PUB.ANO_PARTICAO;sim;não;Ano de exercício;Período Contábil ;Ano de exercício do orçamento fiscal (formato AAAA);Ano de exercício;Exercício;Ano de exercício do processo GRP (Formato AAAA);não;;;
+Execução da Dívida;Pesquisa básica;código;#NA;DM_TIPO_DIVIDA.CD_TIPO;não;não;#NA;#NA;;;;;;;;
+Execução da Dívida;Pesquisa básica;texto;Tipo de Dívida;DM_TIPO_DIVIDA.NOME;sim;não;Projeto Atividade  - Descrição vs Unidade Orçamentária - Nome vc Tipo de ContratoConvênio Entrada ;Unidade Orçamentária // Projeto Atividade - Descrição;;;;;;;;
+Execução da Dívida;Pesquisa básica;código;CNPJ;DM_FAVORECIDO.NR_DOCUMENTO;sim;não;CNPJ_CPF credor númerico;Execução Orçamentária da Despesa >> Despesa Realizada >> Credor - Despesa;Código de CNPJ ou CPF do credor;Inscrição pessoa;Pessoa;Número completo da inscrição da pessoa no CPF, CNPJ, CAPF ou CAPJ;não;;;
+Execução da Dívida;Pesquisa básica;texto;Credor;DM_FAVORECIDO.NOME;sim;não;Razão Social Credor;Execução Orçamentária da Despesa >> Despesa Realizada >> Credor - Despesa;Razão Social Credor;pessoa - Nome;Pessoa;Nome da pessoa;não;;;
+Execução da Dívida;Pesquisa básica;código;Número SIAFI;DM_CONTRATO_DIVIDA. CD_SIAFI;sim;não;NÃO LOCALIZADO -Número SIAFI;;;;;;;;;
+Execução da Dívida;Pesquisa básica;númerico;Número do Contrato;DM_CONTRATO_DIVIDA. NR_CONTRATO_CONV;sim;não;NÃO LOCALIZADO - Número do Contrato;;;;;;;;;
+Execução da Dívida;Pesquisa básica;data;Data de Assinatura;DM_CONTRATO_DIVIDA. DT_ASSINATURA;sim;não;NÃO LOCALIZADO - Data de Assinatura;;;;;;;;;
+Execução da Dívida;Pesquisa básica;data;Data de Vencimento;DM_CONTRATO_DIVIDA. DT_VENCIMENTO;sim;não;NÃO LOCALIZADO - Data de Vencimento;;;;;;;;;
+Execução da Dívida;Pesquisa básica;valor;Valor Inicial Contratado;DM_CONTRATO_DIVIDA. VR_INICIAL;sim;não;NÃO LOCALIZADO - Valor Inicial do Contrato;;;;;;;;;
+Execução da Dívida;Pesquisa básica;valor;Juros e Encargos da Dívida;FT_DIVIDA_PUB.VR_JUROS;sim;sim;Valor Despesa Liquidada vs Grupo de Despesa vs elemento item de despesa;;;;;;;;;
+Execução da Dívida;Pesquisa básica;valor;Amortização da Dívida;FT_DIVIDA_PUB.VR_AMORTIZAÇÃO;sim;sim;Valor Despesa Liquidada vs Grupo de Despesa vs elemento item de despesa;;;;;;;;;
